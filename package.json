@@ -1,0 +1,8 @@
+{
+  "name": "ifsc",
+  "private": true,
+  "workspaces": [
+    "subjects/*/exercises/*",
+    "subjects/*/projects/*"
+  ]
+}

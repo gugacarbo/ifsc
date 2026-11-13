@@ -1,0 +1,72 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Node.js and TypeScript
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.next/
+.nuxt/
+.turbo/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Java and JVM
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+.gradle/
+
+# C and C++
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.exe
+
+# Go
+*.test
+*.prof
+
+# Rust
+# Ignore target directories in any Rust project.
+target/
+
+# Databases and local data
+*.sqlite
+*.sqlite3
+*.db
+
+# Test and tool caches
+.cache/
+.tmp/
+tmp/
